@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Een Digitale Stap Verder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-pZwk+g2Z5qX6Ch12HaxJXhMHDL/95B2S/bR5CV2wE8p8nXl16rDpD+s/COM24kTx5c5Ny8x7BqXc9E+u1P5Pw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Een Digitale Stap Verder</h1>
+            <nav aria-label="Hoofdmenu">
+                <ul class="main-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#digitale-basis">Digitale Basis</a></li>
+                    <li><a href="#sociale-media">Sociale Media</a></li>
+                    <li><a href="#overheid-online">Overheid Online</a></li>
+                    <li><a href="#veilig-online">Veilig Online</a></li>
+                    <li><a href="#apparaten-apps">Apparaten & Apps</a></li>
+                </ul>
+            </nav>
+            <form id="search-form" role="search">
+                <label for="search-input" class="visually-hidden">Zoek</label>
+                <input type="text" id="search-input" placeholder="Zoek" />
+                <button type="submit">Zoek</button>
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Samen een stap verder in de digitale wereld</h2>
+                <p>Praktische hulp en tips voor iedereen die digitaal vaardiger wil worden.</p>
+            </div>
+        </section>
+
+        <div id="search-results" class="container"></div>
+
+        <section class="categories">
+            <div class="container">
+                <h3>Categorieën</h3>
+                <div class="category-grid">
+                    <a href="#digitale-basis" class="category-item">
+                        <i class="fa-solid fa-computer"></i>
+                        <span>Digitale Basis</span>
+                    </a>
+                    <a href="#sociale-media" class="category-item">
+                        <i class="fa-solid fa-users"></i>
+                        <span>Sociale Media</span>
+                    </a>
+                    <a href="#overheid-online" class="category-item">
+                        <i class="fa-solid fa-university"></i>
+                        <span>Overheid Online</span>
+                    </a>
+                    <a href="#veilig-online" class="category-item">
+                        <i class="fa-solid fa-lock"></i>
+                        <span>Veilig Online</span>
+                    </a>
+                    <a href="#apparaten-apps" class="category-item">
+                        <i class="fa-solid fa-mobile-screen"></i>
+                        <span>Apparaten & Apps</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured">
+            <div class="container">
+                <h3>Uitgelichte artikelen</h3>
+                <div class="articles">
+                    <article>
+                        <h4><a href="blog/hoe-maak-ik-een-emailadres-aan.html">Hoe maak ik een e-mailadres aan?</a></h4>
+                        <p>Leer stap voor stap hoe je een eigen e-mailadres maakt.</p>
+                        <a href="blog/hoe-maak-ik-een-emailadres-aan.html" class="read-more">Lees verder</a>
+                    </article>
+                    <article>
+                        <h4><a href="blog/wat-is-een-qr-code.html">Wat is een QR-code?</a></h4>
+                        <p>Wat betekenen die vierkante plaatjes en hoe gebruik je ze?</p>
+                        <a href="blog/wat-is-een-qr-code.html" class="read-more">Lees verder</a>
+                    </article>
+                    <article>
+                        <h4><a href="blog/hoe-gebruik-ik-whatsapp-op-mijn-telefoon.html">Hoe gebruik ik WhatsApp op mijn telefoon?</a></h4>
+                        <p>Berichten sturen en foto's delen met familie en vrienden.</p>
+                        <a href="blog/hoe-gebruik-ik-whatsapp-op-mijn-telefoon.html" class="read-more">Lees verder</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="container">
+                <h3>Ontvang wekelijks onze digitale tips</h3>
+                <form id="newsletter-form">
+                    <label for="newsletter-email" class="visually-hidden">E-mail</label>
+                    <input type="email" id="newsletter-email" placeholder="Je e-mailadres" />
+                    <button type="submit">Aanmelden</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="#contact">Contact</a>
+                <a href="#privacy">Privacybeleid</a>
+                <a href="#sitemap">Sitemap</a>
+                <a href="#socials">Social media</a>
+            </div>
+            <p>&copy; 2024 Een Digitale Stap Verder</p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/31600000000" class="whatsapp-button" aria-label="Stel je vraag via WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
